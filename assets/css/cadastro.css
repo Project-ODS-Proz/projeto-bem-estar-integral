@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*Estilização da Estrutura*/
+#formulario{
+    background-color: white;
+}
+#estrutura {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    background-color: #f0f0f0;
+    height: 60rem;
+    margin: 1 5rem;
+}
+
+#estrutura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#estrutura h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1c85dc;
+}
+
+#estrutura .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#estrutura .social-media a {
+    text-decoration: none;
+}
+
+#estrutura .social-media img {
+    width: 45px;
+    margin-left: 3rem;
+}
+
+
+/*remover a margem a esquerda do logo do google*/
+/*first-child -> primeiro filho*/
+#estrutura .social-media a:first-child img {
+    margin-left: 0;
+}
+
+/* ---OR--- */
+#estrutura .alternative {
+    margin-top: 1rem;
+}
+
+#estrutura .alternative span {
+    color: #1c85dc;
+    position: relative;
+}
+
+/*barras do OR*/
+#estrutura .alternative span::before,
+#estrutura .alternative span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: #1c85dc;
+}
+
+#estrutura .alternative span::after {
+    left: 50px;
+}
+
+
+/*Estrutua do formulário*/
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 50rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.269);
+}
+
+
+/*Estilização do formulário*/
+
+#estrutura form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#estrutura form label {
+    display: flex;
+    flex-direction: column;
+}
+
+/*fonte do formulário*/
+#estrutura form label span {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #1c85dc;
+}
+
+/*campos do formulário*/
+
+#estrutura form input {
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 0.8rem;
+    /*remoção da borda*/
+    outline: none;
+    /*cor da fonte e borda do campo*/
+    color: #1c85dc;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+button{
+    background-color: white;
+    color: #1c85dc;
+    border: #1c85dc solid 0.5px;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #1c85dc;
+    color: white;
+    border: white solid 0.5px;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+
+/* Estilização da imagem*/
+
+#img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    height: 40rem;    
+}
+
+/*Footer*/
+.rodape{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4daaf6;
+    width: 100%;
+    padding: 20px 50px;
+    min-height: 100px;   
+}
+.link-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+.social-icon{
+    list-style: none;
+}
+
+.icon{
+    color: white;
+    font-size: 32px;
+    display:inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px #000;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elementos{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5px;
+    transition: 0.3s;
+    text-shadow: 0 1px 0px #000;    
+}
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Altura da linha abaixo do texto */
+    width: 40px; /* Largura da linha*/
+    border-bottom: 3px solid #f3f3f3; /* Cor e estilo da linha */
+  }
+
+  .menu-link :hover{
+    transform: scale(2.2);
+  }
+
+/*-----------------Footer-----------------*/

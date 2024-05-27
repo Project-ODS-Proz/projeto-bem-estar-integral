@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Espaço Mental</title>
+    <!--Chamada (linkagem) da biblioteca Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!--Script do Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Chamada (linkaguem) do arquivo CSS-->
+    <link rel="stylesheet" href="../assets/css/space_mental.css" />
+
+    <!--Chamada (linkagem) da biblioteca dos icones (fontawesome)-->
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css" />
+
+    <!--Chamada (linkaguem) do arquivo JavaScript-->
+    <script src="#" defer></script>
+  </head>
+
+  <body>  
+    <!--acessibilidade-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="../assets/js/libras.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!---->
+
+    <!--Seção1 - barra de navegação-->
+
+    <header>
+      <!--Barra de navegação-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!--Start logo-->
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../assets/img/home/logo/logo.svg"
+              alt="logo"
+              width=""
+              height="60"
+          /></a>
+          <!--End logo-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!--home-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../index.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Home</a
+                >
+              </li>
+              <!--Receita-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/receitas.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Receitas Culinárias</a
+                >
+              </li>
+              <!--Espaço Mental-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/space_mental.html"
+                  style="font-size: 20px; color: teal"
+                >
+                 Espaço Mental</a
+                >
+              </li>          
+              <!--Espaço Físico-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/space_fisico.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Espaço Físico</a
+                >
+              </li>
+              <!--Login-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/login.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Login</a
+                >
+              </li>
+              <!--Cadastro-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/cadastro.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Cadastro</a
+                >
+              </li>
+              <!--Contato-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/contato.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Contato</a
+                >
+              </li>
+            </ul>
+            <!--Barra de pesquisa-->
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Pesquisar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Desenvolver os códigos aqui dentro-->
+
+      
+
+      <!--banner-movie-->
+      <section class="banner-movie">
+        <video class="movie" autoplay loop muted frameborder="0">
+          <source src="../assets/videos/movie_banner.mp4" type="video/mp4" />
+        </video>
+        <div class="text-movie">
+          <p>
+            <strong>Cuide bem do seu maior baú de tesouros, sua mente!</strong>
+          </p>
+        </div>
+      </section>
+      <!--end banner-movie-->
+
+      <section class="curiosidades">
+        <h2 class="title-container">Curiosidades sobre o Cérebro</h2>
+        <div class="informations">
+          <div class="box-right">
+            <ul>
+              <li>Cerca de 75% da massa total do cérebro é composta por água.</li>             
+              <li>Ele pode arquivar o equivalente a 1.000 terabytes de informações.</li>              
+              <li>Existem de 80 a 100 bilhões de células nervosas no cérebro.</li>
+              <li>Somos capazes de escanear e processar imagens complexas em até 13 milissegundos.</li>             
+              <li>O cérebro em repouso produz energia suficiente para acender uma lâmpada de 25 watts.</li>
+              <li>O hemisfério esquerdo tem quase 200 milhões de neurônios a mais que o direito.</li>
+              <li>Quando você não dorme o suficiente, fica sujeito à perda de memória, raiva, alucinações, perda de foco, fala arrastada, encolhimento e até à danos cerebrais.</li>
+              <li>Massa cinzenta é o nome das células neurais que estão envolvidas em coisas como a memória, a fala e o controle dos músculos.</li>
+              <li>A massa branca recebe esse nome por causa da mielina, que isola os axônios e aumenta a velocidade dos impulsos elétricos.</li>
+              <li>Nos primeiros anos de vida, de 700 a 1.000 novas conexões entre os neurônios se formam a cada segundo.</li>  
+              <li>Mais quantidade de massa cinzenta pode levar a um melhor desempenho em tarefas de linguagem.</li>             
+            </ul>
+          </div>
+          <div class="box-left">
+            <ul>              
+              <li>A massa cinzenta é importante durante a prática de exercícios, porque permite que você pense e se movimente simultaneamente.</li>
+              <li>Pesquisas sugerem que a prática regular de exercícios pode levar ao aumento de massa cinzenta no hipocampo.</li>
+              <li>A massa cinzenta compõe cerca de 40% do cérebro, os outros 60% são formados pela massa branca.</li>
+              <li>A mielinização ocorre durante o processo de aprendizagem. Ela permite que você desenvolva habilidades específicas como tocar instrumentos e, quanto mais prática, mais sua mielina aumenta.</li>  
+              <li>A privação de sono também aumenta a temperatura cerebral.</li>   
+              <li>Baseados em estudos de imagens, neurocientistas afirmam que o cérebro não está completamente maduro até os 25 anos.</li>
+              <li>O lobo frontal lida com uma série de funções para a tomada de decisões. Os lobos parietal e temporal processam novas informações sensoriais.</li>
+              <li>O cerebelo coordena os movimentos.</li>      
+              <li>Embora pareça algo muito difícil de acreditar, é possível sobreviver com apenas metade do cérebro.</li>               
+            </ul>
+          </div>
+        </div>  
+        <p class="box-curiosidade">
+          <span>Fonte:</span>
+          <a href="https://revistagalileu.globo.com/Caminhos-para-o-futuro/Saude/noticia/2016/09/45-fatos-curiosos-sobre-o-cerebro-humano.html">Revista Galileu</a>
+        </p>   
+      </section>
+      <h2 class="title-container">
+        Vamos falar um pouco de como a mente têm sido afetada?
+      </h2>
+
+      <!--Oritenção de interação-->
+      <div class="orientacao">
+        <br />
+        <h5>
+          use a <i class="fa-solid fa-arrow-pointer"></i> do
+          <i class="fa-solid fa-computer-mouse"></i> para interagir com os cards
+          <i class="fa-solid fa-arrow-down"></i>
+        </h5>
+      </div>
+      <!--end orientação-->
+
+      <!--Container de cards-->
+      <div class="container-cards">
+        <!--card1-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/TAG - transtorno de Ansiedade Generalizada.svg"
+            alt="TAG"
+          />
+          <div class="text-card">
+            <h3>TAG</h3>
+            <p>
+              TAG - "Transtorno de Ansiedade Generalizada é uma condição marcada
+              pela ansiedade e preocupação excessivas".
+            </p>
+          </div>
+        </div>
+
+        <!--card2-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/TEI - Transtorno Explosivo Intermitene.svg"
+            alt="TEI"
+          />
+          <div class="text-card">
+            <h3>TEI</h3>
+            <p>
+              TEI - "Transtorno Explosivo Intermitene é um distúrbio que gera
+              comportamentos agressivos, com acessos de raiva descontrolada e
+              agressões desmedidas motivadas por situações corriqueiras".
+            </p>
+          </div>
+        </div>
+
+        <!--card3-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/TOC - Transtorno Obsessivo Compulsivo.svg"
+            alt="TOC"
+          />
+          <div class="text-card">
+            <h3>TOC</h3>
+            <p>
+              TOC - "Transtorno Obsessivo Compulsivo é um distúrbio marcado pela
+              presença de crises recorrentes de obsessões geralmente ligadas à
+              limpeza e organização".
+            </p>
+          </div>
+        </div>
+
+        <!--card4-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/TP - Transtorno do Pânico.svg"
+            alt="TP"
+          />
+          <div class="text-card">
+            <h3>TP</h3>
+            <p>
+              TP - "Transtorno do Pânico é caracterizado por crises de ansiedade
+              repentina e intensa com forte sensação de medo ou mal-estar,
+              acompanhadas de sintomas físicos".
+            </p>
+          </div>
+        </div>
+
+        <!--card5-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/TAS - Transtorno de Ansiedade Social.svg"
+            alt="TAS"
+          />
+          <div class="text-card">
+            <h3>TAS</h3>
+            <p>
+              TAS - "Transtorno de Ansiedade Social, se trata de uma condição
+              mental crônica em que as situações sociais causam verdadeiro
+              pavor".
+            </p>
+          </div>
+        </div>
+
+        <!--card6-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Alzheimer.svg"
+            alt="Alzheimer"
+          />
+          <div class="text-card">
+            <h3>Alzheimer</h3>
+            <p>
+              Alzheimer - "É um transtorno neurodegenerativo progressivo e fatal
+              que se manifesta pela deterioração cognitiva e da memória".
+            </p>
+          </div>
+        </div>
+
+        <!--card7-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Parkinson.svg"
+            alt="Parkinson"
+          />
+          <div class="text-card">
+            <h3>Parkinson</h3>
+            <p>
+              Parkinson - "A doença de Parkinson é uma condição que afeta o
+              sistema nervoso central (região do cérebro encarregada de receber
+              e processar informações), principalmente o sistema motor".
+            </p>
+          </div>
+        </div>
+
+        <!--card8-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Depressão.svg"
+            alt="Depressão"
+          />
+          <div class="text-card">
+            <h3>Depressão</h3>
+            <p>
+              Depressão - "É uma tristeza profunda e muitas vezes sem conteúdo,
+              sem motivo aparente. A depressão é um transtorno comum, mas
+              sério".
+            </p>
+          </div>
+        </div>
+
+        <!--card9-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Anorexia Nervosa.svg"
+            alt="Anorexia Nervosa"
+          />
+          <div class="text-card">
+            <h3>Anorexia Nervosa</h3>
+            <p>
+              Anorexia Nervosa - "Caracteriza-se por busca incansável por
+              magreza, medo mórbido da obesidade, imagem distorcida do corpo".
+            </p>
+          </div>
+        </div>
+
+        <!--card10-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Esquizofrenia.svg"
+            alt="Esquizofrenia"
+          />
+          <div class="text-card">
+            <h3>Esquizofrenia</h3>
+            <p>
+              Esquizofrenia - "A esquizofrenia é um transtorno mental
+              caracterizado pela perda de contato com a realidade (psicose),
+              alucinações (é comum ouvir vozes) e outros".
+            </p>
+          </div>
+        </div>
+
+        <!--card11-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Transtorno bipolar.svg"
+            alt="Transtorno bipolar"
+          />
+          <div class="text-card">
+            <h3>Transtorno bipolar</h3>
+            <p>
+              Transtorno bipolar - "O transtorno bipolar, também conhecido como
+              doença maníaco-depressiva, é um transtorno cerebral que causa
+              mudanças incomuns no humor".
+            </p>
+          </div>
+        </div>
+
+        <!--card12-->
+        <div class="cards">
+          <img
+            src="../assets/img/espaço_mental/Transtorno de Personalidade.svg"
+            alt="Transtorno de Personalidade"
+          />
+          <div class="text-card">
+            <h3>TPAS</h3>
+            <p>
+              TPAS - Transtorno de Personalidade Antissocial, é um tipo de
+              transtorno mental no qual você tem um padrão rígido e doentio de
+              pensar, funcionar e se comportar. ".
+            </p>
+          </div>
+        </div>
+        <!--end cards-->
+        <!--btn de links-->
+        <div class="container mt-5">
+          <div class="dropdown">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Saiba Mais
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.paho.org/pt/topicos/transtornos-mentais"
+                  target="_blank"
+                  >OPAS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.einstein.br/saudemental"
+                  target="_blank"
+                  >Saúde Mental Einstein</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://mapasaudemental.com.br/"
+                  target="_blank"
+                  >Mapa Saúde Mental</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://hospitalsantamonica.com.br"
+                  >Hospital Santa Mônica</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.vittude.com"
+                  >Virtude</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.msdmanuals.com/pt-br/casa"
+                  target="_blank"
+                  >Manual MSD</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--end btn links-->
+      </div>
+      <!--end container de cards-->
+
+      <!--Oritenção de interação-->
+      <div class="orientacao">
+        <h1 class="title-orientacao">O que pode ser feito?</h1>
+        <h5>
+          use a <i class="fa-solid fa-arrow-pointer"></i> do
+          <i class="fa-solid fa-computer-mouse"></i> para interagir com os cards
+          <i class="fa-solid fa-arrow-down"></i>
+        </h5>
+      </div>
+      <!--end orientação-->
+
+      <!--Cards de procedimentos-->
+      <section class="cards-atividades">
+        <!--card1-->
+        <div class="container-cards2">
+          <!---->
+          <!--frente-->
+          <div class="face front">
+            <img
+              src="../assets/img/espaço_mental/exercícios-fisicos.svg"
+              alt=" exercício físico"
+            />
+            <h3>Exercício Físico</h3>
+          </div>
+          <!--verso-->
+          <div class="face verse">
+            <h3>Benefícios</h3>
+            <p>
+              "Pesquisas mostram que o exercício físico regular, como caminhar,
+              correr ou andar de bicicleta pode reduzir o risco de depressão e
+              reduzir a perda cognitiva em pacientes com Alzheimer".
+            </p>
+            <div class="link">
+              <a href="#"> Saiba mais</a>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <!--end card1-->
+
+        <!--card2-->
+        <div class="container-cards2">
+          <!---->
+          <!--frente-->
+          <div class="face front">
+            <img
+              src="../assets/img/espaço_mental/Alimentação.svg"
+              alt=" Alimentação"
+            />
+            <h3>Alimentação</h3>
+          </div>
+          <!--verso-->
+          <div class="face verse">
+            <h3>Benefícios</h3>
+            <p>
+              "A alimentação impacta diretamente em uma série de transtornos
+              psicológicos como os distúrbios alimentares, depressivos e de
+              ansiedade. A carência de vitaminas do complexo B pode estar ligada
+              à fadiga, letargia e até quadros de psicose".
+            </p>
+            <div class="link">
+              <a href="#"> Saiba mais</a>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <!--end card2-->
+
+        <!--card 3-->
+        <div class="container-cards2">
+          <!---->
+          <!--frente-->
+          <div class="face front">
+            <img
+              src="../assets/img/espaço_mental/musicalização.svg"
+              alt="musicalização"
+            />
+            <h3>Musicalização</h3>
+          </div>
+          <!--verso-->
+          <div class="face verse">
+            <h3>Benefícios</h3>
+            <p>
+              "Ajuda na respiração, na pressão arterial, no metabolismo. Melhora
+              a saúde psicossocial, pois também tem propriedades relativas às
+              relações sociais, ressignificações, à re-humanização e ao
+              pertencimento".
+            </p>
+            <div class="link">
+              <a href="#"> Saiba mais</a>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <!--end card 3-->
+
+        <!--card 4-->
+        <div class="container-cards2">
+          <!---->
+          <!--frente-->
+          <div class="face front">
+            <img
+              src="../assets/img/espaço_mental/exercícios-mentais.svg"
+              alt="jogos de raciocínio"
+            />
+            <h3>Jogos de raciocínio</h3>
+          </div>
+          <!--verso-->
+          <div class="face verse">
+            <h3>Benefícios</h3>
+            <p>
+              "Estimulam o raciocínio lógico, analítico, visuoespacial,
+              coordenação motora, memória de trabalho e pensamento lateral".
+            </p>
+            <div class="link">
+              <a href="#"> Saiba mais</a>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <!--end card4-->
+      </section>
+
+      <!--Oritenção de interação-->
+      <div class="orientacao">
+        <h1 class="title-orientacao">Vamos descontrair um pouco?</h1>
+        <h5>
+          use a <i class="fa-solid fa-arrow-pointer"></i> do
+          <i class="fa-solid fa-computer-mouse"></i> para interagir
+        </h5>
+      </div>
+      <!--end orientação-->
+
+      <!--cards jogaveis/-->
+      <section class="games">
+        <div class="cruzada">
+          <iframe
+            src="https://learningapps.org/watch?v=pmshqiana24"
+            style="border: 0px; width: 100%; height: 500px"
+            allowfullscreen="true"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+        </div>
+        <div class="memoria">
+          <iframe
+            src="https://learningapps.org/watch?v=pj4yno6b224"
+            style="border: 0px; width: 100%; height: 500px"
+            allowfullscreen="true"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+        </div>
+      </section>
+      <!--end section games-->
+
+      <!--Oritenção de interação-->
+      <div class="orientacao">
+        <br />
+        <h5 class="title-orientacao">
+          Para ter acesso a mais jogos como esses e outros, basta se cadastrar e
+          fazer o login.
+        </h5>
+        <a href="../sections/cadastro.html" style="color: teal">Clique aqui.</a>
+      </div>
+      <br />
+      <!--end orientação-->
+      <!--Desenvolver as outras ideias-->
+    </main>
+
+     <!--Rodapé-->
+     <footer class="rodape">
+      <ul class="link-icons">
+        <!---->
+        <li class="social-icon">
+          <a href="" class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <!---->
+        <li class="social-icon">
+          <a href="" class="icon">            
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <!---->
+        <li class="social-icon">
+          <a href="" class="icon">            
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <!---->
+      </ul>
+      <ul class="menu-footer">
+        <li class="menu-elementos">
+          <a href="" class="menu-link">Termo de serviço</a>
+        </li>
+        <li class="menu-elementos">
+          <a href="" class="menu-link">Politica de privacidade</a>
+        </li>
+        <li class="menu-elementos">
+          <a href="" class="menu-link">Contato</a>
+        </li>
+      </ul>
+      </div>
+    </footer>
+  </body>
+</html>

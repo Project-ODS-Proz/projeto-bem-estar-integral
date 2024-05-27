@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+main{
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  font-family: sans-serif; 
+}
+/*Estilização da Sessão Login*/
+.tela_login{
+  display: flex;
+  width: 50%;
+  height: 800px;
+  background-color: #f0f0f0;
+}
+
+.card{
+  display: flex;
+  box-shadow: 1px 1px 5px #ccc;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.card-top{
+  text-align: center;
+}
+.login_img{ 
+  width: 100px;
+  border-radius: 50px;
+  height: 100px;
+  box-shadow: 1px 1px 5px #ccc;
+  margin-bottom: 15px;
+}
+
+.form{
+  width: 400px;
+  margin: auto;
+  margin-right: 70px;
+  padding-top: 40px;
+}
+
+.title{
+  color: rgb(55, 120, 190);
+  margin-bottom: 15px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card_form > input{
+  border-radius: 5px;
+  outline: 0;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: rgba(41, 131, 200, 0.765) solid;
+  color: #104265;
+}
+
+.card_form{
+  margin-bottom: 10px;
+} 
+
+
+.card_form > label{
+  width: 200px;
+  color: rgb(7, 110, 170);
+  display: block;
+  padding: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card_form > button{
+  background-image: linear-gradient(to right, #1471ea, #83b8dd );
+  width: 12rem;
+  border-radius: 30px;
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+/*tentativa de remover as bordas dos btns ao clicar*/
+.card_form > button:focus,
+.card_form > button:active {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0); 
+}
+
+.btn button:hover{
+  background-image: linear-gradient(to right, #40a9f4, #1471ea );
+  outline: none;
+  border: none;
+}
+
+
+
+/*Estililzação da Sessão imagem*/
+.img_login{
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 800px;
+  background-color: #f0f0f0;
+}
+.img_login > img{
+
+  margin-top: 10rem;
+  height: 500px;  
+}
+
+/*Footer*/
+.rodape{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4daaf6;
+  width: 100%;
+  padding: 20px 50px;
+  min-height: 100px;   
+}
+.link-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+.social-icon{
+  list-style: none;
+}
+
+.icon{
+  color: white;
+  font-size: 32px;
+  display:inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px #000;
+}
+.icon:hover{
+  transform: translateY(-10px);
+}
+
+.menu-footer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elementos{
+  list-style: none;
+}
+.menu-link{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5px;
+  transition: 0.3s;
+  text-shadow: 0 1px 0px #000;    
+}
+
+.menu-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Altura da linha abaixo do texto */
+  width: 40px; /* Largura da linha*/
+  border-bottom: 3px solid #f3f3f3; /* Cor e estilo da linha */
+}
+
+.menu-link :hover{
+  transform: scale(2.2);
+}
+
+/*-----------------Footer-----------------*/

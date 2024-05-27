@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Culinárias</title>
+    <!--Chamada (linkagem) da biblioteca Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!--Script do Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Chamada (linkaguem) do arquivo CSS-->
+    <link rel="stylesheet" href="../assets/css/receitas.css" />
+
+    <!--Chamada (linkagem) da biblioteca dos icones (fontawesome)-->
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css" />
+
+    <!--Chamada (linkaguem) do arquivo JavaScript-->
+    <script src="#" defer></script>
+  </head>
+
+  <body>
+    <!--Seção1 - barra de navegação-->
+
+    <!--acessibilidade-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="../assets/js/libras.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!---->
+
+    <header>
+      <!--Barra de navegação-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+          <!--Start logo-->
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../assets/img/home/logo/logo.svg"
+              alt="logo"
+              width=""
+              height="60"
+          /></a>
+          <!--End logo-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!--home-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../index.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Home</a
+                >
+              </li>
+              <!--Receitas Culinarias-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/receitas.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Receitas Culinárias</a
+                >
+              </li>
+              <!--Espaço Físico-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/space_fisico.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Espaço Físico</a
+                >
+              </li>
+              <!--Espaço Mental-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/space_mental.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Espaço Mental</a
+                >
+              </li>
+              <!--Login-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/login.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Login</a
+                >
+              </li>
+              <!--Cadastro-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/cadastro.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Cadastro</a
+                >
+              </li>
+              <!--Contato-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../sections/contato.html"
+                  style="font-size: 20px; color: teal"
+                >
+                  Contato</a
+                >
+              </li>
+            </ul>
+            <!--Barra de pesquisa-->
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Pesquisar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1 style="text-align: center">Receitas saudáveis</h1>
+    <div class="text-about">
+      <p>
+        A culinária saudável não só alimenta o corpo, mas também nutre a alma. Ao escolher ingredientes frescos e naturais, e ao preparar refeições em casa, estamos investindo no nosso bem-estar de forma holística. Uma dieta equilibrada, rica em frutas, legumes, grãos integrais e proteínas magras, não só contribui para a saúde física, mas também para o bem-estar mental.
+
+Além disso, a culinária saudável nos permite explorar uma variedade de sabores e texturas, criando pratos deliciosos e nutritivos. Ao fazer escolhas conscientes na cozinha, estamos fortalecendo nosso sistema imunológico, aumentando os níveis de energia e melhorando nossa saúde cardiovascular.
+
+Ao praticar a culinária saudável, também estamos cultivando hábitos alimentares positivos que podem ser transmitidos às gerações futuras. É uma forma de autocuidado que nos conecta com a terra e com os ciclos naturais da vida.
+
+Na jornada em direção a uma vida mais saudável, a culinária é uma aliada poderosa. Experimente novas receitas, descubra ingredientes frescos e permita que sua cozinha se torne um santuário de saúde e felicidade.
+      </p>
+    </div>
+
+      
+
+      <section
+        id="cards"
+        class="col-11 m-auto row row-cols-1 row-cols-md-3 g-4"
+      >
+        <!--card receita 01-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_07.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Aveia dormida</h5>
+              <p class="card-text">
+                Aveia dormida é uma excelente opção para o café da manhã ou lanche da tarde.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalaveia"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modalaveia"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Aveia dormida
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Fechar"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes:</h4>
+                      <ul>
+                        <li>1/2 xícara de aveia em flocos</li>
+                        <li>1/2 xícara de leite de amêndoa (ou leite de sua preferência)</li>
+                        <li>1 colher de sopa de iogurte grego</li>
+                        <li>1 colher de chá de mel (opcional)</li>
+                        <li>Morangos fatiados</li>
+                      </ul>
+                      
+                      <h4>Modo de Preparo:</h4>
+                      
+                      <ol>
+                        <li>Misture a aveia, o leite de amêndoa, o iogurte grego e o mel em um recipiente.</li>
+                        <li>Cubra e deixe na geladeira durante a noite.</li>
+                        <li>Pela manhã, sirva a aveia dormida em um prato ou tigela e adicione os morangos fatiados por cima.</li>
+                        <li>Aproveite sua aveia dormida com morango!</li>
+                      </ol>                      
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 02-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_02.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Crepe saudável</h5>
+              <p class="card-text">
+                Crepe é uma opção leve e gostosa para qualquer horário do dia.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalcrepe"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalcrepe"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Crepe saudável
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes:</h4>
+                      <ul>
+                        <li>1 ovo</li>
+                        <li>2 colheres de sopa de farinha de aveia (ou farinha de trigo integral)</li>
+                        <li>1/4 xícara de leite de amêndoa (ou leite de sua preferência)</li>
+                        <li>1 colher de chá de óleo de coco (ou óleo vegetal)</li>
+                        <li>Frutas frescas a gosto (por exemplo, banana, morango, mirtilo)</li>
+                        <li>Mel ou xarope de bordo para adoçar (opcional)</li>
+                      </ul>
+                      
+                      <h4>Modo de Preparo:</h4>
+                      
+                      <ol>
+                        <li>Em uma tigela, bata o ovo.</li>
+                        <li>Adicione a farinha de aveia e o leite de amêndoa, misture bem até obter uma massa homogênea.</li>
+                        <li>Aqueça uma frigideira antiaderente e adicione o óleo de coco.</li>
+                        <li>Despeje um pouco da massa na frigideira, espalhando-a para formar um crepe fino.</li>
+                        <li>C cozinhe por cerca de 1-2 minutos de cada lado, até dourar levemente.</li>
+                        <li>Retire o crepe da frigideira e recheie com as frutas frescas.</li>
+                        <li>Dobre o crepe ao meio ou enrole-o e sirva.</li>
+                        <li>Adicione mel ou xarope de bordo, se desejar.</li>
+                      </ol>
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 03-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_03.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Peixe Grelhado</h5>
+              <p class="card-text">
+                Comer peixe regularmente pode melhorar a saúde do coração e do cérebro.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalpeixe"
+              >
+                Peixe Grelhado
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalpeixe"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Peixe grelhado
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes</h4>
+                      <ul>
+                        <li>Peça de filé de peixe fresco (salmão, tilápia, robalo, etc.)</li>
+                        <li>Azeite de oliva extra virgem</li>
+                        <li>Sal e pimenta a gosto</li>
+                        <li>Ervas frescas (salsa, coentro, tomilho) ou secas</li>
+                        <li>Limão (opcional)</li>
+                    </ul>
+                    <h4>Modo de Preparo:</h4>
+                    <ol>
+                        <li>Pré-aqueça a grelha em fogo médio-alto.</li>
+                        <li>Tempere o filé de peixe com azeite de oliva, sal, pimenta e suas ervas preferidas.</li>
+                        <li>Grelhe o peixe por 3-4 minutos de cada lado, ou até que esteja cozido ao seu gosto.</li>
+                        <li>Sirva com fatias de limão, se desejar.</li>
+                    </ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 04-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_04.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pão de banana</h5>
+              <p class="card-text">
+                Pão de banana é gostoso e saudável, e cai bem como lanchinho da tarde.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#bananamodal"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="bananamodal"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Pão de banana
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes:</h4>
+    <ul>
+        <li>3 bananas maduras</li>
+        <li>1/3 xícara de óleo vegetal</li>
+        <li>1 ovo</li>
+        <li>1/2 xícara de açúcar</li>
+        <li>1 1/2 xícara de farinha de trigo</li>
+        <li>1 colher de chá de bicarbonato de sódio</li>
+        <li>1 colher de chá de essência de baunilha</li>
+        <li>Uma pitada de sal</li>
+        <li>Opcional: nozes picadas, passas ou gotas de chocolate</li>
+    </ul>
+    <h4>Modo de Preparo:</h4>
+    <ol>
+        <li>Pré-aqueça o forno a 180°C e unte uma forma para pão.</li>
+        <li>Em uma tigela grande, amasse as bananas até ficarem homogêneas.</li>
+        <li>Adicione o óleo vegetal, o ovo, o açúcar e a essência de baunilha, misturando bem.</li>
+        <li>Acrescente a farinha de trigo, o bicarbonato de sódio e o sal, misturando até formar uma massa uniforme.</li>
+        <li>Se desejar, adicione as nozes picadas, passas ou gotas de chocolate, misturando delicadamente.</li>
+        <li>Transfira a massa para a forma preparada e leve ao forno por cerca de 50-60 minutos, ou até que um palito inserido no centro saia limpo.</li>
+        <li>Deixe esfriar antes de cortar e servir.</li>
+    </ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 05-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_05.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Frango Grelhado</h5>
+              <p class="card-text">
+                Frango grelhado para almoço e jantar é saldável e combina com saladas e arroz.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalfrango"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalfrango"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Frango Grelhado
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes</h4>
+                      <ul>
+                        <li>Peito de frango desossado e sem pele</li>
+                        <li>Limão</li>
+                        <li>Alho em pó</li>
+                        <li>Sal e pimenta a gosto</li>
+                        <li>Ervas frescas ou secas (como tomilho, alecrim, salsa)</li>
+                        <li>Azeite de oliva extra virgem</li>
+                    </ul>
+                    <h4>Modo de Preparo:</h4>
+                    <ol>
+                        <li>Tempere o peito de frango com suco de limão, alho em pó, sal, pimenta e suas ervas preferidas.</li>
+                        <li>Deixe marinar na geladeira por pelo menos 30 minutos.</li>
+                        <li>Pré-aqueça a grelha em fogo médio-alto.</li>
+                        <li>Grelhe o frango por 6-8 minutos de cada lado, ou até que esteja cozido por completo.</li>
+                        <li>Sirva quente e aproveite!</li>
+                    </ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 06-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_06.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Salada no pote</h5>
+              <p class="card-text">
+                Uma forma prática e saudável de levar sua salada para onde quiser!
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalsalada"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalsalada"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Salada no Pote
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                     <h4>Ingredientes</h4>
+
+<ul>
+    <li>Alface picada</li>
+    <li>Rúcula</li>
+    <li>Cenoura ralada</li>
+    <li>Tomate cereja cortado ao meio</li>
+    <li>Pepino em rodelas</li>
+    <li>Queijo branco em cubos</li>
+    <li>Frango desfiado</li>
+    <li>Molho de sua preferência (limão, azeite, sal e pimenta)</li>
+</ul>
+<h4>Modo de preparo:</h4>
+<p>Monte as camadas na seguinte ordem: molho, cenoura, tomate, pepino, alface, rúcula, queijo e frango.</p>
+
+<p>Fechado hermeticamente, o pote de vidro pode ser armazenado na geladeira por até 3 dias.</p>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 07-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_01.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sopa de abóbora</h5>
+              <p class="card-text">
+                Uma sopa cremosa e reconfortante, perfeita para os dias mais frios!
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalsopa"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalsopa"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Sopa de abóbora
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes</h4>
+
+<ul>
+    <li>500g de abóbora descascada e cortada em cubos</li>
+    <li>1 cebola picada</li>
+    <li>2 dentes de alho picados</li>
+    <li>1 batata média descascada e cortada em cubos</li>
+    <li>1 cenoura descascada e cortada em rodelas</li>
+    <li>1 litro de caldo de legumes</li>
+    <li>Sal e pimenta a gosto</li>
+    <li>1 colher de sopa de azeite de oliva</li>
+    <li>Salsinha picada para decorar</li>
+</ul>
+
+<h4>Modo de preparo:</h4>
+
+<ol>
+    <li>Em uma panela grande, refogue a cebola e o alho no azeite até ficarem dourados.</li>
+    <li>Adicione a abóbora, a batata e a cenoura. Refogue por alguns minutos.</li>
+    <li>Despeje o caldo de legumes na panela e deixe ferver.</li>
+    <li>Reduza o fogo e cozinhe por cerca de 20-25 minutos, ou até que os legumes estejam macios.</li>
+    <li>Com um mixer de mão, processe a sopa até ficar cremosa. Se preferir, você pode transferir a sopa para um liquidificador.</li>
+    <li>Tempere com sal e pimenta a gosto.</li>
+    <li>Sirva quente, decorada com salsinha picada.</li>
+</ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 08-->
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_09.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sopa Oriental</h5>
+              <p class="card-text">
+                A oriental oferece uma explosão de sabores e nutrientes para alimentar o corpo e a alma.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalsopa-02"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalsopa-02"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Sopa Oriental
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes</h4>
+                      <ul>
+                        <li>Caldo de legumes caseiro</li>
+                        <li>Gengibre fresco ralado</li>
+                        <li>Alho picado</li>
+                        <li>Cenoura cortada em rodelas finas</li>
+                        <li>Brócolis cortado em pedaços pequenos</li>
+                        <li>Cogumelos fatiados</li>
+                        <li>Tofu cortado em cubos</li>
+                        <li>Molho de soja (opcional)</li>
+                        <li>Pimenta moída a gosto</li>
+                        <li>Cebolinha picada para decorar</li>
+                    </ul>
+                    
+                   <h4>Modo de preparo</h4>
+                    <ol>
+                        <li>Aqueça o caldo de legumes em uma panela.</li>
+                        <li>Adicione o gengibre ralado e o alho picado.</li>
+                        <li>Deixe ferver e adicione a cenoura, brócolis e cogumelos.</li>
+                        <li>Cozinhe até que os legumes estejam macios.</li>
+                        <li>Adicione o tofu e deixe aquecer por mais alguns minutos.</li>
+                        <li>Tempere com molho de soja, se desejar, e pimenta moída a gosto.</li>
+                        <li>Sirva quente, decorado com cebolinha picada.</li>
+                    </ol>
+                    
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--card receita 09-->
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="../assets/img/receitas/food_08.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Suco verde</h5>
+              <p class="card-text">
+                Suco verde é uma excelente opção de bebida nutritiva.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalsuco"
+              >
+                Receita
+              </button>
+              <!-- Modal -->
+              <div
+                id="modalsuco"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Suco verde
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Ingredientes</h4>
+                      <ul>
+                        <li>2 folhas de couve fresca</li>
+                        <li>1 maçã verde, sem sementes e cortada em pedaços</li>
+                        <li>1/2 pepino, descascado e cortado em rodelas</li>
+                        <li>1/2 limão espremido</li>
+                        <li>1 pedaço pequeno de gengibre fresco, descascado</li>
+                        <li>200 ml de água de coco (ou água filtrada)</li>
+                        <li>Gelo a gosto (opcional)</li>
+                    </ul>
+                    
+                    <h4>Modo de preparo:</h4>
+                    <ol>
+                        <li>Lave bem as folhas de couve.</li>
+                        <li>No liquidificador, adicione todos os ingredientes.</li>
+                        <li>Bata até obter uma mistura homogênea.</li>
+                        <li>Se desejar, adicione gelo para servir bem gelado.</li>
+                        <li>Sirva imediatamente.</li>
+                    </ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--End Cards-->
+      <br />
+    </main>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--logo2-->
+
+    <div class="logo2">
+      <div class="text-center">
+        <img
+          id="logofooter"
+          src="../assets/img/receitas/logo_2.jpeg"
+          alt=""
+          style="width: 150px; height: 150px"
+        />
+      </div>
+      <div class="text-center">
+        <a href="/" id="copyfooter"> &copy 2024 Copyright </a>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--logo 2 -->
+    <!-- 
+ <footer class="page-footer font-small blue p-5" style="background-color:rgb(231, 230, 235);">
+    <div class="text-center">
+        <img id="logofooter" src="../assets/img/receitas/logo_2.jpeg" alt="">
+    </div>
+    <div class="text-center">
+      <a href="/" id="copyfooter"> &copy 2024 Copyright  </a>
+    </div>
+  </footer> 
+ -->
+
+    <!--Rodapé-->
+
+     <!--Rodapé-->
+     <footer class="rodape">
+      <ul class="link-icons">
+        <!---->
+        <li class="social-icon">
+          <a href="" class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <!---->
+        <li class="social-icon">
+          <a href="" class="icon">            
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <!---->
+        <li class="social-icon">
+          <a href="" class="icon">            
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <!---->
+      </ul>
+      <ul class="menu-footer">
+        <li class="menu-elementos">
+          <a href="" class="menu-link">Termo de serviço</a>
+        </li>
+        <li class="menu-elementos">
+          <a href="" class="menu-link">Politica de privacidade</a>
+        </li>
+        <li class="menu-elementos">
+          <a href="" class="menu-link">Contato</a>
+        </li>
+      </ul>
+      </div>
+    </footer>
+  </body>
+</html>

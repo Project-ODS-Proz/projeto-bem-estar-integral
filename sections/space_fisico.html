@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Espaço Físico</title>
+  <!--Chamada (linkagem) da biblioteca Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!--Script do Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!--Chamada (linkaguem) do arquivo CSS-->
+  <link rel="stylesheet" href="../assets/css/space_fisico.css" />
+
+  <!--Chamada (linkagem) da biblioteca dos icones (fontawesome)-->
+  <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css" />
+
+  <!--Chamada (linkaguem) do arquivo JavaScript-->
+  <script src="#" defer></script>
+</head>
+
+<body>
+  <!--acessibilidade-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="../assets/js/libras.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!---->
+  <!--Seção1 - barra de navegação-->
+
+  <header>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!--Start logo-->
+        <a class="navbar-brand" href="#"><img src="../assets/img/home/logo/logo.svg" alt="logo" width=""
+            height="60" /></a>
+        <!--End logo-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--home-->
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html" style="font-size: 20px; color: teal">
+                Home</a>
+            </li>
+            <!--Receita-->
+            <li class="nav-item">
+              <a class="nav-link" href="../sections/receitas.html" style="font-size: 20px; color: teal">
+                Receitas Culinárias</a>
+            </li>
+            <!--Espaço Mental-->
+            <li class="nav-item">
+              <a class="nav-link" href="../sections/space_mental.html" style="font-size: 20px; color: teal">
+                Espaço Mental</a>
+            </li>
+            <!--Espaço Físico-->
+            <!--Espaço Mental-->
+            <li class="nav-item">
+              <a class="nav-link" href="../sections/space_fisico.html" style="font-size: 20px; color: teal">
+                Espaço Físico</a>
+            </li>
+            <!--Login-->
+            <li class="nav-item">
+              <a class="nav-link" href="../sections/login.html" style="font-size: 20px; color: teal">
+                Login</a>
+            </li>
+            <!--Cadastro-->
+            <li class="nav-item">
+              <a class="nav-link" href="../sections/cadastro.html" style="font-size: 20px; color: teal">
+                Cadastro</a>
+            </li>
+            <!--Contato-->
+            <li class="nav-item">
+              <a class="nav-link" href="../sections/contato.html" style="font-size: 20px; color: teal">
+                Contato</a>
+            </li>
+          </ul>
+          <!--Barra de pesquisa-->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--banner-movie-->
+    <section class="banner-movie">
+      <video class="movie" autoplay loop muted frameborder="0">
+        <source src="../assets/videos/corrida.mp4" type="video/mp4" />
+      </video>
+      <div class="text-movie">
+        <p>
+          <strong>"Corpo são, mente sã."</strong>
+        </p>
+      </div>
+    </section>
+    <!--end banner-movie-->
+
+    <h1 style="text-align: center">Exercícios Físicos</h1>
+    <div class="text-about">
+      <p>
+        Na busca pelo bem-estar completo, a conexão entre mente e corpo é
+        essencial. Nossa aba dedicada a exercícios físicos abraça plenamente o
+        lema "mente sã e corpo são". Aqui, exploramos os benefícios
+        transformadores do movimento para o seu bem-estar mental e físico.
+        Desde o impulso de endorfinas que eleva o humor até a clareza mental
+        obtida através do exercício, cada sessão de treino é uma oportunidade
+        para nutrir tanto o seu físico quanto a sua mente. Junte-se a nós
+        nesta jornada de equilíbrio, onde o movimento se torna uma ferramenta
+        poderosa para alcançar uma vida plena e saudável
+      </p>
+    </div>
+
+    <section id="cards" class="col-11 m-auto row row-cols-1 row-cols-md-3 g-4">
+      <!--card exercicio 01-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Jogging-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Caminhada ou corrida ao ar livre</h5>
+            <p class="card-text">
+              A caminhada melhora a saúde cardiovascular, reduz o estresse e promove o bem-estar geral.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino01">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="modaltreino01" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Preparação:</p>
+                    <ul>
+                      <ul>
+                        <li><strong>Escolha o local:</strong> Selecione uma área segura e adequada para caminhar, como
+                          parques, trilhas ou ruas pouco movimentadas.</li>
+                        <li><strong>Vista-se adequadamente:</strong> Use roupas confortáveis e apropriadas para o clima,
+                          além de calçados adequados para caminhada.</li>
+                        <li><strong>Aqueça-se:</strong> Antes de iniciar a caminhada, faça alguns exercícios de
+                          alongamento para aquecer os músculos.</li>
+                        <li><strong>Hidrate-se:</strong> Beba água antes, durante e depois da caminhada para manter-se
+                          hidratado.</li>
+                        <li><strong>Inicie em um ritmo confortável:</strong> Comece a caminhar em um ritmo que seja
+                          confortável para você e aumente gradualmente a intensidade.</li>
+                        <li><strong>Mantenha uma boa postura:</strong> Caminhe ereto, olhando para frente, com os ombros
+                          relaxados e os braços balançando naturalmente.</li>
+                        <li><strong>Respire adequadamente:</strong> Respire profundamente e de forma rítmica para
+                          garantir um bom fluxo de oxigênio.</li>
+                        <li><strong>Monitore o tempo e a distância:</strong> Use um relógio ou aplicativo para
+                          acompanhar quanto tempo e quanta distância você está percorrendo.</li>
+                        <li><strong>Resfrie-se:</strong> No final da caminhada, diminua gradualmente o ritmo e faça
+                          alguns exercícios de alongamento para resfriar os músculos.</li>
+                        <li><strong>Avalie seu desempenho:</strong> Após a caminhada, avalie como você se sente e ajuste
+                          seu plano de caminhada conforme necessário para melhorar seu desempenho.</li>
+                      </ul>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card exercicio 02-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Stretch-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Treino funcional</h5>
+            <p class="card-text">
+              Treino funcional melhora força e flexibilidade.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino02">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino02" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body-02">
+                    <ul>
+                      <li>
+                        <strong>Aquecimento (5-10 minutos):</strong>
+                        <ul>
+                          <li><strong>Cardio leve:</strong> Caminhada rápida, corrida leve no lugar ou pular corda.</li>
+                          <li><strong>Mobilidade articular:</strong> Rotação dos ombros, quadris e tornozelos.</li>
+                          <li><strong>Alongamentos dinâmicos:</strong> Elevação de joelhos, círculos com os braços,
+                            balanço de pernas.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Circuito de Exercícios Funcionais (30-40 minutos):</strong>
+                        <ul>
+                          <li><strong>Agachamento (Squat):</strong> Foco nos quadríceps, glúteos e core. Execução: Pés
+                            na largura dos ombros, descer como se fosse sentar em uma cadeira, mantendo o peito erguido.
+                          </li>
+                          <li><strong>Flexão de Braço (Push-Up):</strong> Foco no peitoral, tríceps e core. Execução:
+                            Mãos na largura dos ombros, corpo em linha reta dos pés à cabeça, descer e subir flexionando
+                            os cotovelos.</li>
+                          <li><strong>Afundo (Lunge):</strong> Foco nos quadríceps, glúteos e core. Execução: Dar um
+                            passo à frente e abaixar o corpo até que ambos os joelhos estejam a 90 graus, voltar à
+                            posição inicial.</li>
+                          <li><strong>Prancha (Plank):</strong> Foco no core. Execução: Corpo em linha reta dos ombros
+                            aos pés, cotovelos alinhados com os ombros, manter a posição.</li>
+                          <li><strong>Burpee:</strong> Exercício completo para o corpo todo, combina agachamento, flexão
+                            e salto. Execução: Agachar, colocar as mãos no chão, saltar para a posição de flexão, fazer
+                            a flexão, saltar de volta para a posição de agachamento e pular para cima.</li>
+                          <li><strong>Levantamento Terra com Halteres (Dumbbell Deadlift):</strong> Foco nos glúteos,
+                            isquiotibiais e lombar. Execução: Pés na largura dos ombros, halteres em frente às coxas,
+                            descer com os halteres próximos ao corpo, mantendo as costas retas.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Resfriamento (5-10 minutos):</strong>
+                        <ul>
+                          <li><strong>Alongamentos estáticos:</strong> Focar nos músculos trabalhados durante o treino.
+                          </li>
+                          <li><strong>Respiração profunda:</strong> Para ajudar a diminuir a frequência cardíaca.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Dicas Adicionais:</strong>
+                        <ul>
+                          <li><strong>Progressão:</strong> Aumentar gradualmente a intensidade e a complexidade dos
+                            exercícios.</li>
+                          <li><strong>Variedade:</strong> Alterar os exercícios regularmente para evitar platôs e manter
+                            a motivação.</li>
+                          <li><strong>Técnica:</strong> Priorizar a forma correta sobre a quantidade de repetições ou
+                            peso para evitar lesões.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Exemplo de Circuito:</strong> Realize cada exercício por 45 segundos, seguido de 15
+                        segundos de descanso. Complete 3-4 rodadas do circuito com 1-2 minutos de descanso entre cada
+                        rodada.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card exercicio 03-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Dumbbell exercise-pana.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Musculação em casa</h5>
+            <p class="card-text">
+              A musculação proporciona aumento da força, resistência, além de melhorias na postura e metabolismo.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino03">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino03" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <div class="btn">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <div class="modal-body-03">
+                    <ul>
+                      <li><strong>Flexão de Braço:</strong> Deite-se de bruços no chão, com as mãos alinhadas com os
+                        ombros. Empurre o corpo para cima, estendendo os braços, e depois abaixe lentamente de volta à
+                        posição inicial.</li>
+
+                      <li><strong>Agachamento:</strong> Fique em pé, com os pés na largura dos ombros. Dobre os joelhos
+                        e abaixe o quadril como se estivesse sentando em uma cadeira. Mantenha os joelhos alinhados com
+                        os tornozelos e volte à posição inicial.</li>
+
+                      <li><strong>Prancha:</strong> Deite-se de bruços e apoie o peso nos antebraços e nos dedos dos
+                        pés, mantendo o corpo reto. Mantenha essa posição por alguns segundos, mantendo o abdômen
+                        contraído.</li>
+
+                      <li><strong>Levantamento de Peso:</strong> Use objetos pesados que você tem em casa, como garrafas
+                        de água ou sacos de arroz, para realizar levantamentos. Mantenha a postura correta e levante os
+                        objetos de forma controlada.</li>
+
+                      <li><strong>Abdominais:</strong> Deite-se de costas, com os joelhos dobrados e os pés apoiados no
+                        chão. Levante os ombros em direção aos joelhos, contraindo os músculos abdominais, e depois
+                        abaixe lentamente de volta à posição inicial.</li>
+                    </ul>
+
+                    <p>Lembre-se sempre de aquecer antes de iniciar os exercícios e de alongar os músculos após o
+                      treino. Mantenha uma boa postura durante a execução dos movimentos e respeite os limites do seu
+                      corpo. Com consistência e dedicação, você pode alcançar ótimos resultados mesmo treinando em casa!
+                    </p>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card exercicio 04-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Pilates-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Pilates em casa</h5>
+            <p class="card-text">
+              O Pilates é uma prática excelente para fortalecer o corpo, melhorar a postura e aumentar a flexibilidade.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino04">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino04" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p> Confira abaixo alguns exercícios simples que você pode realizar em casa:</p>
+
+                    <ul>
+                      <li><strong>Rolo de Espuma:</strong> Deite-se sobre uma esteira com o rolo de espuma posicionado
+                        sob a coluna vertebral. Role lentamente para frente e para trás, massageando os músculos das
+                        costas.</li>
+
+                      <li><strong>Prancha de Pilates:</strong> Deite-se de costas com os joelhos dobrados e os pés
+                        apoiados no chão. Levante os quadris em direção ao teto, formando uma linha reta dos ombros aos
+                        joelhos. Mantenha a posição por alguns segundos e depois abaixe lentamente.</li>
+
+                      <li><strong>Alongamento de Gato e Vaca:</strong> Posicione-se de quatro, com os joelhos alinhados
+                        com os quadris e os pulsos alinhados com os ombros. Arqueie as costas para cima, olhando em
+                        direção ao teto, e depois arredonde a coluna para baixo, trazendo o queixo em direção ao peito.
+                      </li>
+
+                      <li><strong>Alongamento de Pernas:</strong> Sentado no chão, estenda uma perna para a frente e
+                        dobre a outra perna, apoiando o pé contra a coxa estendida. Incline-se suavemente em direção à
+                        perna estendida, mantendo as costas retas, e sinta o alongamento na parte de trás da perna.</li>
+
+                      <li><strong>Exercício de Cem:</strong> Deite-se de costas com os joelhos dobrados em direção ao
+                        peito e os braços estendidos ao lado do corpo. Levante a cabeça, ombros e pernas do chão e
+                        comece a bater os braços para cima e para baixo, como se estivesse batendo palmas, enquanto
+                        conta até cem.</li>
+                    </ul>
+
+                    <p>Lembre-se de respirar profundamente durante os exercícios e de manter a concentração nos
+                      movimentos. Com prática regular, o Pilates pode ajudar a melhorar sua saúde e bem-estar geral,
+                      mesmo quando praticado em casa!</p>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card receita 05-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Yoga practice-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Yoga em casa ou ao ar livre</h5>
+            <p class="card-text">
+               A yoga ajuda a aumentar a flexibilidade, reduzir o estresse, melhorar a postura, entre outros.
+.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino05">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino05" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Yoga é uma prática que pode ser facilmente incorporada à sua rotina diária em casa. Aqui estão algumas dicas para começar:</p>
+    <ul>
+        <li><strong>Escolha um Espaço:</strong> Encontre um local tranquilo em sua casa, livre de distrações, onde você se sinta confortável.</li>
+        <li><strong>Use um Tapete de Yoga:</strong> Um tapete antiderrapante proporcionará estabilidade e conforto durante suas posturas.</li>
+        <li><strong>Defina uma Intenção:</strong> Antes de começar, reserve um momento para definir uma intenção para a sua prática, seja ela relaxamento, flexibilidade ou equilíbrio.</li>
+        <li><strong>Siga um Guia:</strong> Existem muitos vídeos e tutoriais online que podem orientá-lo em sua prática, desde iniciantes até níveis mais avançados.</li>
+        <li><strong>Respire Profundamente:</strong> Concentre-se na sua respiração durante as posturas, respirando profundamente e conscientemente.</li>
+        <li><strong>Respeite Seu Corpo:</strong> Não force além dos seus limites. Ouça seu corpo e faça ajustes conforme necessário.</li>
+        <li><strong>Termine com Relaxamento:</strong> Reserve alguns minutos no final da sua prática para relaxar completamente, deitando-se em Savasana e liberando qualquer tensão restante.</li>
+    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card receita 06-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Road cycling-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Andar de bicicleta</h5>
+            <p class="card-text">
+              Pedalar regularmente promove saúde física e mental, além de contribuir para um meio ambiente mais limpo e sustentável.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino06">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino06" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Aqui estão os passos básicos para andar de bicicleta:</p>
+    <ul>
+        <li>Escolha uma bicicleta adequada para sua altura.</li>
+        <li>Ajuste o selim e o guidão para garantir conforto e controle.</li>
+        <li>Coloque um capacete de segurança.</li>
+        <li>Monte na bicicleta e segure o guidão firmemente.</li>
+        <li>Empurre o pedal com o pé para ganhar impulso.</li>
+        <li>Mantenha o equilíbrio movendo o guidão suavemente.</li>
+        <li>Para parar, freie gradualmente usando os freios.</li>
+        <li>Pratique regularmente para melhorar suas habilidades.</li>
+    </ul>
+    <p><strong>Dicas:</strong> você pode procurar grupos de pessoas que andem de bicileta na sua cidade.
+      Andar em grupo é uma ideia interessante para segurança, alémd e promover interações entre as pessoas.
+    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card receita 07-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/salsa music-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Dança</h5>
+            <p class="card-text">
+              Praticar dança, seja em casa ou em grupo, oferece uma série de benefícios para a saúde física e mental.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino07">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino07" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Praticar dança, seja em casa ou em grupo, oferece uma série de benefícios para a saúde física e mental. Aqui estão algumas dicas para começar:</p>
+    <ul>
+        <li>Escolha um estilo de dança que lhe interesse e motive.</li>
+        <li>Encontre recursos online, como tutoriais em vídeo, para aprender passos básicos e coreografias.</li>
+        <li>Limpe um espaço em sua casa para dançar livremente, garantindo que seja seguro e sem obstáculos.</li>
+        <li>Use roupas confortáveis que permitam movimentos amplos e flexíveis.</li>
+        <li>Aqueça o corpo antes de começar a dançar, realizando alguns alongamentos suaves.</li>
+        <li>Pratique regularmente, começando com sessões curtas e aumentando gradualmente a duração conforme ganha confiança.</li>
+        <li>Experimente dançar em grupo, seja em aulas presenciais ou em comunidades online, para aumentar a motivação e a diversão.</li>
+    </ul>
+    <p>Dançar regularmente oferece uma série de benefícios, incluindo:</p>
+    <ul>
+        <li>Melhora da coordenação motora e do equilíbrio.</li>
+        <li>Fortalecimento dos músculos e aumento da flexibilidade.</li>
+        <li>Redução do estresse e melhora do humor.</li>
+        <li>Aumento da autoconfiança e da autoestima.</li>
+        <li>Estímulo mental e criativo.</li>
+        <li>Promove a socialização e o senso de comunidade.</li>
+    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card receita 08-->
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Breathing exercise-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Meditação e exercícios de respiração</h5>
+            <p class="card-text">
+              Praticar meditação promove equilíbrio mental e bem-estar, fortalecendo a conexão entre corpo e mente."
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino08">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino08" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Praticar meditação e exercícios de respiração regularmente oferece uma série de benefícios para a saúde física e mental. Aqui estão algumas dicas para começar:</p>
+                    <ul>
+                      <li>Encontre um local tranquilo e confortável para praticar, onde você não será interrompido.</li>
+                      <li>Sente-se ou deite-se em uma posição confortável, mantendo a coluna ereta para facilitar a respiração.</li>
+                      <li>Feche os olhos e concentre-se em sua respiração, observando-a enquanto entra e sai do seu corpo.</li>
+                      <li>Pratique exercícios de respiração, como respiração abdominal profunda ou respiração consciente, para acalmar a mente e relaxar o corpo.</li>
+                      <li>Use técnicas de meditação, como atenção plena ou visualização, para focar sua mente e reduzir o estresse.</li>
+                      <li>Pratique regularmente, começando com sessões curtas e aumentando gradualmente a duração conforme ganha experiência.</li>
+                  </ul>
+                  <p>A prática regular de meditação e exercícios de respiração oferece uma série de benefícios, incluindo:</p>
+                  <ul>
+                      <li>Redução do estresse e da ansiedade.</li>
+                      <li>Melhoria da qualidade do sono.</li>
+                      <li>Aumento da concentração e do foco.</li>
+                      <li>Fortalecimento do sistema imunológico.</li>
+                      <li>Regulação das emoções e aumento da estabilidade emocional.</li>
+                      <li>Melhoria da saúde cardiovascular e respiratória.</li>
+                      <li>Promove um senso de calma, clareza e bem-estar geral.</li>
+                  </ul>
+              </body>
+              </html>
+              Este HTML cria uma página com um título, um parágrafo introdutório, uma lista não ordenada de dicas para praticar meditação e exercícios de respiração, e outra lista não ordenada destacando os benefícios da prática regular dessas técnicas.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--card receita 09-->
+
+      <div class="col">
+        <div class="card">
+          <img src="../assets/img/espaço_físico/Personalized workouts-rafiki.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Hiit</h5>
+            <p class="card-text">
+              O Hiit promove perda de gordura, aumento da resistência cardiovascular e melhoria do metabolismo.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="btn">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltreino09">
+                Ver mais
+              </button>
+            </div>
+            <!-- Modal -->
+            <div id="modaltreino09" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Como fazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Aqui estão alguns exercícios de alta intensidade que você pode fazer em casa para um treino eficaz de HIIT:</p>
+                    <ul>
+                        <li><strong>Agachamentos:</strong> Faça agachamentos rápidos durante 30 segundos, seguidos por 15 segundos de descanso.</li>
+                        <li><strong>Flexões:</strong> Realize flexões o mais rápido possível por 30 segundos, seguidos por 15 segundos de descanso.</li>
+                        <li><strong>Burpees:</strong> Faça burpees intensos por 30 segundos, seguidos por 15 segundos de descanso.</li>
+                        <li><strong>Corrida Estacionária:</strong> Corra no lugar por 1 minuto, alternando entre alta intensidade e baixa intensidade a cada 20 segundos.</li>
+                        <li><strong>Mountain Climbers:</strong> Execute mountain climbers por 30 segundos, seguidos por 15 segundos de descanso.</li>
+                    </ul>
+                    <p>Lembre-se de aquecer antes de começar e de alongar após o treino. Repita o circuito de exercícios de 3 a 5 vezes, dependendo do seu nível de condicionamento físico.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End Cards-->
+    <br />
+  </main>
+
+  <!---->
+  <br />
+  <br />
+  <br />
+  <br />
+  <!--logo2-->
+
+  <div class="logo2">
+    <div class="text-center">
+      <img id="logofooter" src="../assets/img/receitas/logo_2.jpeg" alt="" style="width: 150px; height: 150px" />
+    </div>
+    <div class="text-center">
+      <a href="/" id="copyfooter"> &copy 2024 Copyright </a>
+    </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <!---->
+  <!--Rodapé-->
+  <footer class="rodape">
+    <ul class="link-icons">
+      <!---->
+      <li class="social-icon">
+        <a href="" class="icon">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <!---->
+      <li class="social-icon">
+        <a href="" class="icon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <!---->
+      <li class="social-icon">
+        <a href="" class="icon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <!---->
+    </ul>
+    <ul class="menu-footer">
+      <li class="menu-elementos">
+        <a href="" class="menu-link">Termo de serviço</a>
+      </li>
+      <li class="menu-elementos">
+        <a href="" class="menu-link">Politica de privacidade</a>
+      </li>
+      <li class="menu-elementos">
+        <a href="" class="menu-link">Contato</a>
+      </li>
+    </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
